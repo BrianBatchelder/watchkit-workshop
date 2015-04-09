@@ -39,7 +39,7 @@ public enum Choice: Int {
         return Choice(rawValue: c)!
     }
 
-    public func verb(other: Choice) -> String {
+    public func verb(other: Choice,nodefault: Bool = false) -> String {
         if other == self {
             return ""
         }
@@ -50,7 +50,8 @@ public enum Choice: Int {
             case .Scissors, .Lizard:
                 return "crushes"
             default:
-                return other.verb(self)
+                assert(!nodefault)
+                return other.verb(self,nodefault: true)
             }
         case .Paper:
             switch other {
@@ -59,7 +60,8 @@ public enum Choice: Int {
             case .Rock:
                 return "covers"
             default:
-                return other.verb(self)
+                assert(!nodefault)
+                return other.verb(self,nodefault: true)
             }
         case .Scissors:
             switch other {
@@ -68,14 +70,16 @@ public enum Choice: Int {
             case .Lizard:
                 return "decapitates"
             default:
-                return other.verb(self)
+                assert(!nodefault)
+                return other.verb(self,nodefault: true)
             }
         case .Spock:
             switch other {
             case .Rock, .Scissors:
                 return "vaporizes"
             default:
-                return other.verb(self)
+                assert(!nodefault)
+                return other.verb(self,nodefault: true)
             }
         case .Lizard:
             switch other {
@@ -84,7 +88,8 @@ public enum Choice: Int {
             case .Spock:
                 return "poisons"
             default:
-                return other.verb(self)
+                assert(!nodefault)
+                return other.verb(self,nodefault: true)
             }
         }
     }
