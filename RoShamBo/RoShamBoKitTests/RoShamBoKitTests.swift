@@ -1,8 +1,8 @@
 //
-//  RoShamBo.swift
-//  RoShamBoTests
+//  RoShamBoKitTests.swift
+//  RoShamBoKitTests
 //
-//  Created by Ryan Arana on 3/25/15.
+//  Created by Brian Batchelder on 4/8/15.
 //  Copyright (c) 2015 PDX-iOS. All rights reserved.
 //
 
@@ -11,7 +11,7 @@ import XCTest
 
 import RoShamBoKit
 
-class RoShamBoTests: XCTestCase {
+class RoShamBoKitTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

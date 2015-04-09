@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RoShamBoKit
 
 class ViewController: UIViewController {
 
