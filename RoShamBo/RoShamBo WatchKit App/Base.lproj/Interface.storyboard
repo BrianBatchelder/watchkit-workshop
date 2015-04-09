@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="RoShamBo_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="47" alignment="center" id="IXP-gu-CPq">
+                            <items>
+                                <button width="0.33000000000000002" height="1" alignment="left" backgroundImage="rock.png" id="sUy-cX-p8Y">
+                                    <connections>
+                                        <action selector="rockPressed" destination="AgC-eL-Hgc" id="Tpn-xT-VBB"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" height="1" alignment="center" backgroundImage="paper.png" id="fdu-Gr-6Qd">
+                                    <connections>
+                                        <action selector="paperPressed" destination="AgC-eL-Hgc" id="nSG-hQ-ksS"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" height="1" alignment="right" backgroundImage="scissors.png" id="uB3-Bh-RoL">
+                                    <connections>
+                                        <action selector="scissorsPressed" destination="AgC-eL-Hgc" id="qxP-6O-pp7"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="47" alignment="center" id="fYS-Cf-fOr">
+                            <items>
+                                <button width="0.33000000000000002" height="1" alignment="center" backgroundImage="lizard.png" id="fl7-gT-KbH">
+                                    <connections>
+                                        <action selector="lizardPressed" destination="AgC-eL-Hgc" id="kdc-Z4-W3r"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" height="1" alignment="center" backgroundImage="spock.png" id="FXx-Ie-GXA">
+                                    <connections>
+                                        <action selector="spockPressed" destination="AgC-eL-Hgc" id="2k6-SX-Qot"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="136" alignment="center" text="CHOOSE!" textAlignment="center" id="BXK-kh-x1t">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <separator alignment="left" id="Rn4-9w-AQ2">
+                            <color key="color" red="0.27450980392156865" green="0.28627450980392155" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
+                        </separator>
+                        <group width="1" alignment="left" id="hSz-jQ-G4g">
+                            <items>
+                                <button width="42" height="42" alignment="center" backgroundImage="rock.png" id="9Gs-tj-FsT"/>
+                                <label alignment="center" verticalAlignment="center" text="crushes" minimumScaleFactor="0.50000000000000011" id="bv9-qW-MLm"/>
+                                <button width="42" height="42" alignment="center" backgroundImage="scissors.png" id="WbG-b3-B2V"/>
+                            </items>
+                        </group>
+                        <label alignment="center" text="Results" textAlignment="center" id="lle-k0-sm9"/>
+                    </items>
+                    <connections>
+                        <outlet property="chooseLabel" destination="BXK-kh-x1t" id="wwz-ij-uvA"/>
+                        <outlet property="lizardButton" destination="fl7-gT-KbH" id="eab-ci-Q1G"/>
+                        <outlet property="loserButton" destination="WbG-b3-B2V" id="fUd-FH-NOZ"/>
+                        <outlet property="paperButton" destination="fdu-Gr-6Qd" id="Y4d-jO-1BB"/>
+                        <outlet property="resultsLabel" destination="lle-k0-sm9" id="TKP-h6-3wa"/>
+                        <outlet property="resultsSeparator" destination="Rn4-9w-AQ2" id="epo-JR-fMU"/>
+                        <outlet property="rockButton" destination="sUy-cX-p8Y" id="lzb-Oy-bFb"/>
+                        <outlet property="scissorsButton" destination="uB3-Bh-RoL" id="qdn-D6-3lB"/>
+                        <outlet property="spockButton" destination="FXx-Ie-GXA" id="i6B-CT-N0M"/>
+                        <outlet property="verbLabel" destination="bv9-qW-MLm" id="UEr-h6-KkD"/>
+                        <outlet property="winnerButton" destination="9Gs-tj-FsT" id="aa5-WX-iCz"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>

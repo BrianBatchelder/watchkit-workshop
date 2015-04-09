@@ -24,6 +24,32 @@
 		948E54441AC3CF2F00CCF68F /* rock-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E543F1AC3CF2F00CCF68F /* rock-highlighted.png */; };
 		948E54451AC3CF2F00CCF68F /* scissors-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54401AC3CF2F00CCF68F /* scissors-highlighted.png */; };
 		948E54461AC3CF2F00CCF68F /* spock-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54411AC3CF2F00CCF68F /* spock-highlighted.png */; };
+		D34D95681AD6136D0020A292 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34D95671AD6136D0020A292 /* InterfaceController.swift */; };
+		D34D956A1AD6136D0020A292 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34D95691AD6136D0020A292 /* Images.xcassets */; };
+		D34D956E1AD6136D0020A292 /* RoShamBo WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = D34D956D1AD6136D0020A292 /* RoShamBo WatchKit App.app */; };
+		D34D95761AD6136D0020A292 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34D95741AD6136D0020A292 /* Interface.storyboard */; };
+		D34D95781AD6136D0020A292 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34D95771AD6136D0020A292 /* Images.xcassets */; };
+		D34D957B1AD6136D0020A292 /* RoShamBo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D34D95631AD6136D0020A292 /* RoShamBo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D34D95831AD613D60020A292 /* lizard-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E543D1AC3CF2F00CCF68F /* lizard-highlighted.png */; };
+		D34D95841AD613D60020A292 /* paper-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E543E1AC3CF2F00CCF68F /* paper-highlighted.png */; };
+		D34D95851AD613D60020A292 /* rock-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E543F1AC3CF2F00CCF68F /* rock-highlighted.png */; };
+		D34D95861AD613D60020A292 /* scissors-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54401AC3CF2F00CCF68F /* scissors-highlighted.png */; };
+		D34D95871AD613D60020A292 /* spock-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54411AC3CF2F00CCF68F /* spock-highlighted.png */; };
+		D34D95881AD613D60020A292 /* lizard.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54331AC378A600CCF68F /* lizard.png */; };
+		D34D95891AD613D60020A292 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54341AC378A600CCF68F /* paper.png */; };
+		D34D958A1AD613D60020A292 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54351AC378A600CCF68F /* rock.png */; };
+		D34D958B1AD613D60020A292 /* scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54361AC378A600CCF68F /* scissors.png */; };
+		D34D958C1AD613D60020A292 /* spock.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54371AC378A600CCF68F /* spock.png */; };
+		D34D958D1AD613D70020A292 /* lizard-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E543D1AC3CF2F00CCF68F /* lizard-highlighted.png */; };
+		D34D958E1AD613D70020A292 /* paper-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E543E1AC3CF2F00CCF68F /* paper-highlighted.png */; };
+		D34D958F1AD613D70020A292 /* rock-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E543F1AC3CF2F00CCF68F /* rock-highlighted.png */; };
+		D34D95901AD613D70020A292 /* scissors-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54401AC3CF2F00CCF68F /* scissors-highlighted.png */; };
+		D34D95911AD613D70020A292 /* spock-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54411AC3CF2F00CCF68F /* spock-highlighted.png */; };
+		D34D95921AD613D70020A292 /* lizard.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54331AC378A600CCF68F /* lizard.png */; };
+		D34D95931AD613D70020A292 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54341AC378A600CCF68F /* paper.png */; };
+		D34D95941AD613D70020A292 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54351AC378A600CCF68F /* rock.png */; };
+		D34D95951AD613D70020A292 /* scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54361AC378A600CCF68F /* scissors.png */; };
+		D34D95961AD613D70020A292 /* spock.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E54371AC378A600CCF68F /* spock.png */; };
 		D34D95A11AD616AC0020A292 /* RoShamBoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D34D95A01AD616AC0020A292 /* RoShamBoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D34D95A71AD616AC0020A292 /* RoShamBoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34D959C1AD616AC0020A292 /* RoShamBoKit.framework */; };
 		D34D95B01AD616AC0020A292 /* RoShamBoKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34D95AF1AD616AC0020A292 /* RoShamBoKitTests.swift */; };
@@ -41,12 +67,33 @@
 			remoteGlobalIDString = 948E540C1AC3725100CCF68F;
 			remoteInfo = RoShamBo;
 		};
+		D34D956F1AD6136D0020A292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 948E54051AC3725100CCF68F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D34D956C1AD6136D0020A292;
+			remoteInfo = "RoShamBo WatchKit App";
+		};
+		D34D95791AD6136D0020A292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 948E54051AC3725100CCF68F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D34D95621AD6136D0020A292;
+			remoteInfo = "RoShamBo WatchKit Extension";
+		};
 		D34D95A81AD616AC0020A292 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 948E54051AC3725100CCF68F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D34D959B1AD616AC0020A292;
 			remoteInfo = RoShamBoKit;
+		};
+		D34D95AA1AD616AC0020A292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 948E54051AC3725100CCF68F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 948E540C1AC3725100CCF68F;
+			remoteInfo = RoShamBo;
 		};
 		D34D95B11AD616AC0020A292 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -58,6 +105,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D34D95821AD6136D0020A292 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D34D957B1AD6136D0020A292 /* RoShamBo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D34D95B81AD616AC0020A292 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,6 +152,14 @@
 		948E543F1AC3CF2F00CCF68F /* rock-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rock-highlighted.png"; sourceTree = "<group>"; };
 		948E54401AC3CF2F00CCF68F /* scissors-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scissors-highlighted.png"; sourceTree = "<group>"; };
 		948E54411AC3CF2F00CCF68F /* spock-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spock-highlighted.png"; sourceTree = "<group>"; };
+		D34D95631AD6136D0020A292 /* RoShamBo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RoShamBo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34D95661AD6136D0020A292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D34D95671AD6136D0020A292 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D34D95691AD6136D0020A292 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D34D956D1AD6136D0020A292 /* RoShamBo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RoShamBo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34D95731AD6136D0020A292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D34D95751AD6136D0020A292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D34D95771AD6136D0020A292 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D34D959C1AD616AC0020A292 /* RoShamBoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoShamBoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34D959F1AD616AC0020A292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D34D95A01AD616AC0020A292 /* RoShamBoKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoShamBoKit.h; sourceTree = "<group>"; };
@@ -149,6 +215,8 @@
 			children = (
 				948E540F1AC3725100CCF68F /* RoShamBo */,
 				948E54251AC3725100CCF68F /* RoShamBoTests */,
+				D34D95641AD6136D0020A292 /* RoShamBo WatchKit Extension */,
+				D34D95711AD6136D0020A292 /* RoShamBo WatchKit App */,
 				D34D959D1AD616AC0020A292 /* RoShamBoKit */,
 				D34D95AC1AD616AC0020A292 /* RoShamBoKitTests */,
 				948E540E1AC3725100CCF68F /* Products */,
@@ -160,6 +228,8 @@
 			children = (
 				948E540D1AC3725100CCF68F /* RoShamBo.app */,
 				948E54221AC3725100CCF68F /* RoShamBoTests.xctest */,
+				D34D95631AD6136D0020A292 /* RoShamBo WatchKit Extension.appex */,
+				D34D956D1AD6136D0020A292 /* RoShamBo WatchKit App.app */,
 				D34D959C1AD616AC0020A292 /* RoShamBoKit.framework */,
 				D34D95A61AD616AC0020A292 /* RoShamBoKitTests.xctest */,
 			);
@@ -221,6 +291,42 @@
 				948E54371AC378A600CCF68F /* spock.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		D34D95641AD6136D0020A292 /* RoShamBo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D34D95671AD6136D0020A292 /* InterfaceController.swift */,
+				D34D95691AD6136D0020A292 /* Images.xcassets */,
+				D34D95651AD6136D0020A292 /* Supporting Files */,
+			);
+			path = "RoShamBo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D34D95651AD6136D0020A292 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D34D95661AD6136D0020A292 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D34D95711AD6136D0020A292 /* RoShamBo WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D34D95741AD6136D0020A292 /* Interface.storyboard */,
+				D34D95771AD6136D0020A292 /* Images.xcassets */,
+				D34D95721AD6136D0020A292 /* Supporting Files */,
+			);
+			path = "RoShamBo WatchKit App";
+			sourceTree = "<group>";
+		};
+		D34D95721AD6136D0020A292 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D34D95731AD6136D0020A292 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D34D959D1AD616AC0020A292 /* RoShamBoKit */ = {
@@ -311,6 +417,39 @@
 			productReference = 948E54221AC3725100CCF68F /* RoShamBoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D34D95621AD6136D0020A292 /* RoShamBo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34D95811AD6136D0020A292 /* Build configuration list for PBXNativeTarget "RoShamBo WatchKit Extension" */;
+			buildPhases = (
+				D34D955F1AD6136D0020A292 /* Sources */,
+				D34D95601AD6136D0020A292 /* Frameworks */,
+				D34D95611AD6136D0020A292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D34D95701AD6136D0020A292 /* PBXTargetDependency */,
+			);
+			name = "RoShamBo WatchKit Extension";
+			productName = "RoShamBo WatchKit Extension";
+			productReference = D34D95631AD6136D0020A292 /* RoShamBo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		D34D956C1AD6136D0020A292 /* RoShamBo WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34D95801AD6136D0020A292 /* Build configuration list for PBXNativeTarget "RoShamBo WatchKit App" */;
+			buildPhases = (
+				D34D956B1AD6136D0020A292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RoShamBo WatchKit App";
+			productName = "RoShamBo WatchKit App";
+			productReference = D34D956D1AD6136D0020A292 /* RoShamBo WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		D34D959B1AD616AC0020A292 /* RoShamBoKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D34D95B51AD616AC0020A292 /* Build configuration list for PBXNativeTarget "RoShamBoKit" */;
@@ -364,6 +503,12 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 948E540C1AC3725100CCF68F;
 					};
+					D34D95621AD6136D0020A292 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					D34D956C1AD6136D0020A292 = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					D34D959B1AD616AC0020A292 = {
 						CreatedOnToolsVersion = 6.2;
 					};
@@ -388,6 +533,8 @@
 			targets = (
 				948E540C1AC3725100CCF68F /* RoShamBo */,
 				948E54211AC3725100CCF68F /* RoShamBoTests */,
+				D34D95621AD6136D0020A292 /* RoShamBo WatchKit Extension */,
+				D34D956C1AD6136D0020A292 /* RoShamBo WatchKit App */,
 				D34D959B1AD616AC0020A292 /* RoShamBoKit */,
 				D34D95A51AD616AC0020A292 /* RoShamBoKitTests */,
 			);
@@ -420,6 +567,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34D95611AD6136D0020A292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34D956A1AD6136D0020A292 /* Images.xcassets in Resources */,
+				D34D956E1AD6136D0020A292 /* RoShamBo WatchKit App.app in Resources */,
+				D34D95841AD613D60020A292 /* paper-highlighted.png in Resources */,
+				D34D95881AD613D60020A292 /* lizard.png in Resources */,
+				D34D958C1AD613D60020A292 /* spock.png in Resources */,
+				D34D95851AD613D60020A292 /* rock-highlighted.png in Resources */,
+				D34D95891AD613D60020A292 /* paper.png in Resources */,
+				D34D958A1AD613D60020A292 /* rock.png in Resources */,
+				D34D95861AD613D60020A292 /* scissors-highlighted.png in Resources */,
+				D34D95871AD613D60020A292 /* spock-highlighted.png in Resources */,
+				D34D95831AD613D60020A292 /* lizard-highlighted.png in Resources */,
+				D34D958B1AD613D60020A292 /* scissors.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34D956B1AD6136D0020A292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34D95761AD6136D0020A292 /* Interface.storyboard in Resources */,
+				D34D95781AD6136D0020A292 /* Images.xcassets in Resources */,
+				D34D958E1AD613D70020A292 /* paper-highlighted.png in Resources */,
+				D34D95921AD613D70020A292 /* lizard.png in Resources */,
+				D34D95961AD613D70020A292 /* spock.png in Resources */,
+				D34D958F1AD613D70020A292 /* rock-highlighted.png in Resources */,
+				D34D95931AD613D70020A292 /* paper.png in Resources */,
+				D34D95941AD613D70020A292 /* rock.png in Resources */,
+				D34D95901AD613D70020A292 /* scissors-highlighted.png in Resources */,
+				D34D95911AD613D70020A292 /* spock-highlighted.png in Resources */,
+				D34D958D1AD613D70020A292 /* lizard-highlighted.png in Resources */,
+				D34D95951AD613D70020A292 /* scissors.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +642,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D34D955F1AD6136D0020A292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34D95681AD6136D0020A292 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D34D95971AD616AC0020A292 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -480,6 +673,16 @@
 			isa = PBXTargetDependency;
 			target = 948E540C1AC3725100CCF68F /* RoShamBo */;
 			targetProxy = 948E54231AC3725100CCF68F /* PBXContainerItemProxy */;
+		};
+		D34D95701AD6136D0020A292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D34D956C1AD6136D0020A292 /* RoShamBo WatchKit App */;
+			targetProxy = D34D956F1AD6136D0020A292 /* PBXContainerItemProxy */;
+		};
+		D34D957A1AD6136D0020A292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D34D95621AD6136D0020A292 /* RoShamBo WatchKit Extension */;
+			targetProxy = D34D95791AD6136D0020A292 /* PBXContainerItemProxy */;
 		};
 		D34D95A91AD616AC0020A292 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -513,6 +716,14 @@
 				948E541C1AC3725100CCF68F /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		D34D95741AD6136D0020A292 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D34D95751AD6136D0020A292 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -657,6 +868,60 @@
 			};
 			name = Release;
 		};
+		D34D957C1AD6136D0020A292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RoShamBo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D34D957D1AD6136D0020A292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RoShamBo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D34D957E1AD6136D0020A292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = RoShamBo_WatchKit_Extension;
+				INFOPLIST_FILE = "RoShamBo WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		D34D957F1AD6136D0020A292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = RoShamBo_WatchKit_Extension;
+				INFOPLIST_FILE = "RoShamBo WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 		D34D95B61AD616AC0020A292 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -760,6 +1025,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D34D95801AD6136D0020A292 /* Build configuration list for PBXNativeTarget "RoShamBo WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34D957E1AD6136D0020A292 /* Debug */,
+				D34D957F1AD6136D0020A292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D34D95811AD6136D0020A292 /* Build configuration list for PBXNativeTarget "RoShamBo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34D957C1AD6136D0020A292 /* Debug */,
+				D34D957D1AD6136D0020A292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		D34D95B51AD616AC0020A292 /* Build configuration list for PBXNativeTarget "RoShamBoKit" */ = {
 			isa = XCConfigurationList;
